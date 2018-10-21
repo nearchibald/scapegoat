@@ -2,7 +2,7 @@ from pandas_datareader import data
 
 class Data():
 
-    def __init__(self, tickers=None, start_date='2018-01-01', end_date='2018-06-01', source="yahoo", type = "Close"):
+    def __init__(self, tickers=None, start_date='2016-01-01', end_date='2018-06-01', source="yahoo", type = "Close"):
 
         self.Portfolios = {"ETFs": ["IVV", "EFA", "IEFA", "AGG", "IJH", "IWM", "IEMG", "IJR", "DVY"]}
 
