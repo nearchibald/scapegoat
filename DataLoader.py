@@ -21,7 +21,7 @@ class Data():
 
     def get_data(self):
 
-        if type == "All":
+        if self.type == "All":
             return self.Data
         else:
             return self.Data[self.type]

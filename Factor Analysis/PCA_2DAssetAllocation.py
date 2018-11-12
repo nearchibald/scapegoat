@@ -96,4 +96,5 @@ class Offence_Defence_Portfolios():
 
         return Portfolios
 
-# todo: add sliding window with rebalance period to the example or to the class
+# todo: add sliding window with rebalance period to the example or to the class+
+# todo: check the code, seems like offence and defence need to be switched
